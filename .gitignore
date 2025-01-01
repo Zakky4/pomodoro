@@ -1,0 +1,36 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Byte-compiled / optimized / DLL files
+
+# Flask specific files
+instance/
+*.pyc
+*.pyo
+*.pyd
+*.cfg
+__pycache__/
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+
+# Flask-SQLAlchemy
+*.db
+*.sqlite3
+
+# Flask-Migrate
+migrations/
+
+# Pytest
+.pytest_cache/
+
+# Mac
+.DS_Store
